@@ -1,0 +1,67 @@
+/* Colores de fondo */
+.bg-primary {
+    background-color: #383e56;
+}
+
+.bg-secondary {
+    background-color: #f69e7b;
+}
+
+/* Colores de texto */
+.text-light {
+    color: #eedad1;
+}
+
+.text-info {
+    color: #d4b5b0;
+}
+
+.text-primary {
+    color: #383e56;
+}
+
+/* Alineación y ancho */
+.text-center {
+    text-align: center;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+/* Espaciado opcional */
+.m-20 {
+    margin: 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+/* Estilos de botones */
+button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover states */
+.bg-secondary:hover {
+    background-color: #e48c69; /* Color más oscuro en hover */
+}
+
+.text-primary:hover {
+    color: #2d3245; /* Color diferente en hover */
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .w-200 {
+        width: 100%; /* Botones ocupan todo el ancho en pantallas pequeñas */
+    }
+
+    .text-center {
+        text-align: left; /* Texto alineado a la izquierda en pantallas pequeñas */
+    }
+}
